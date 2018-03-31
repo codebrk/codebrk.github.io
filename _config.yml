@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -19,3 +20,7 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+=======
+url: https://codebreak.me
+enforce_ssl: codebreak.me
+>>>>>>> 2c30273a6decc85f4131eef27cc29208a13739a9
