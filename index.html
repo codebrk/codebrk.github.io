@@ -1,23 +1,89 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Codebreak</title>
 
-<div class="home">
+	<link rel="stylesheet" href="assets/fonts/icons/icons.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/skeleton.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/master.css">
+</head>
+<body>
 
-  <h1 class="page-heading">Posts</h1>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="four columns">
+					<a href="#" class="logo">&lt; CODE <span>BREAK</span> /&gt;</a>
+				</div>
+				<div class="eight columns">
+					<ul>
+						<li><a href="#">BLOG</a></li>
+						<li><a href="#">CONTACT</a></li>
+						<li><a href="#">ABOUT</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="cover">
+		<div class="container">
+			<div class="row info-flex">
+				<div class="six columns">
+					<div class="info">
+						<h3>Get 100+ countries proxy in one tap!</h3>
+						<p>Free Proxy List App is a great place to get free proxies instantly, when ever you travel you might not able to access some data from Internet, with help of this app you can access anything anywhere anytime. It has more than 100+ countries proxies</p>
+						<a href="https://play.google.com/store/apps/details?id=me.anyms.freeproxylist" target="_blank"><img src="assets/img/googleplay.png"></a>
+						<a href="https://play.google.com/store/apps/developer?id=Anyms" target="_blank">Browse more apps</a>
+					</div>
+				</div>
+				<div class="six columns preview">
+					<img src="assets/img/mobile_bg.png">
+				</div>
+			</div>
+		</div>
+	</div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="twelve columns"><h3 class="title">Our Services</h3></div>
+			</div>
+			<div class="row">
+				<div class="four columns">
+					<div class="widget">
+						<div class="preview"><img src="assets/img/android.png"></div>
+						<h4>Mobile Apps</h4>
+						<p>Download awesome Android apps, browse lot's of cool apps now.</p>
+						<a href="https://play.google.com/store/apps/developer?id=Anyms" target="_blank">Browse</a>
+					</div>
+				</div>
+				<div class="four columns">
+					<div class="widget">
+						<div class="preview"><img src="assets/img/jekyll.png"></div>
+						<h4>Jekyll Templates</h4>
+						<p>Download or buy our free and premium Jekyll templates</p>
+						<a href="#">Browse</a>
+					</div>
+				</div>
+				<div class="four columns">
+					<div class="widget">
+						<div class="preview"><img src="assets/img/open_source.png"></div>
+						<h4>Open Source</h4>
+						<p>We do open source project whenever we get free times</p>
+						<a href="https://github.com/codebrk" target="_blank">Browse</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+	<footer>
+		<p>Copyright &copy;2018 — Codebreak</p>
+	</footer>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</div>
+<script type="text/javascript" src="assets/js/base.js"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>

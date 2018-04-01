@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+body {
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+	padding: 0;
+}
+
+
+/* HEADER */
+header {
+	background-color: #0D2935;
+}
+header ul, header ul li { margin: 0; }
+header ul { text-align: right; }
+header ul li { display: inline-block; }
+header a, header a:active, header a:visited { text-decoration: none; color: #BBB; font-size: 18px; }
+header a:hover { color: #CCC; }
+header ul a {
+	padding: 20px 0 20px 40px;
+	display: inline-block;
+}
+header .logo {
+	padding: 20px 0;
+	display: inline-block;
+}
+header .logo span { font-weight: 700; }
+
+
+/* COVER */
+.cover {
+	background-color: #04B98C;
+	overflow: hidden;
+}
+.cover .info {
+	padding: 40px 0;
+}
+.cover .info img {
+	width: 180px;
+	margin-right: 20px;
+}
+.cover .info a { float: left; }
+.cover .info a:last-child {
+	font-size: 18px;
+	color: #FFF;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 10px 0;
+}
+.cover h3 {
+	font-weight: 700;
+	line-height: 1;
+	color: #FFF;
+}
+.cover p {
+	color: #0D2935;
+	font-size: 18px;
+}
+.cover .preview {
+	text-align: right;
+}
+.cover .preview img {
+	position: relative;
+	bottom: -10px;
+	width: 100%;
+}
+.cover .info-flex {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+
+/* SECTION */
+section {
+	padding: 60px 0;
+	color: #0D2935;
+}
+section .title {
+	text-align: center;
+	margin: 0 0 40px 0;
+	font-weight: 700;
+}
+section .widget {
+	text-align: center;
+}
+section .widget .preview {
+	padding: 40px;
+}
+section .widget .preview img {
+	width: 100%;
+}
+section .widget h4 { 
+	font-weight: 700;
+	margin-top: 0;
+}
+section .widget p {
+	font-size: 18px;
+}
+section .widget a {
+	text-decoration: none;
+	background-color: #0D2935;
+	display: inline-block;
+	padding: 10px 30px;
+	font-size: 18px;
+	color: #FFF;
+	border-radius: 40px;
+}
+
+
+footer p {
+	text-align: center;
+	color: #0D2935;
+	font-size: 18px;
+	padding: 40px 0;
+}
+
+
+/* MEDIA QUERIES */
+@media (max-width: 1000px) {
+	.cover .info p {
+		display: none;
+	}
+}
+
+@media (max-width: 680px) {
+	.cover h3  {
+		display: none;
+	}
+	.cover .info img {
+		width: 140px;
+	}
+}
