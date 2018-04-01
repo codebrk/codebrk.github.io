@@ -67,7 +67,7 @@ header .logo span { font-weight: 700; }
 .cover .preview img {
 	position: relative;
 	bottom: -10px;
-	width: 100%;
+	/*width: 100%;*/
 }
 .cover .info-flex {
 	display: flex;
@@ -130,7 +130,7 @@ footer p {
 
 @media (max-width: 680px) {
 	.cover h3  {
-		display: none;
+		/*display: none;*/
 	}
 	.cover .info img {
 		width: 140px;
