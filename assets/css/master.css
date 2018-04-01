@@ -136,3 +136,12 @@ footer p {
 		width: 140px;
 	}
 }
+
+@media (max-width: 560px) {
+	header, header ul {
+		text-align: center;
+	}
+	header ul li a {
+		padding: 20px;
+	}
+}
